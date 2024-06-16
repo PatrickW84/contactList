@@ -40,3 +40,38 @@
 .read-the-docs {
   color: #888;
 }
+
+table {
+  border: solid 1px black;
+  /* column-gap: 10px; */
+}
+
+thead {
+  font-weight: bold;
+  text-decoration-line: underline;
+  background-color: rgb(122, 152, 77) !important;
+}
+
+/* Style for all table rows */
+tr {
+  border: 1px solid #ddd;
+}
+
+/* Style for odd rows */
+tr:nth-child(odd) {
+  background-color: #f2f2f2ba; /* Light grey background for odd rows */
+}
+
+/* Style for even rows */
+tr:nth-child(even) {
+  background-color: #ffffff; /* White background for even rows */
+}
+
+/* Adding hover effect for user friendliness*/
+tr:hover {
+  background-color: #ddd; /* Light grey background on hover */
+}
+
+#contactCard {
+  border: black 2px solid;
+}
